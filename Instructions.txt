@@ -1,0 +1,21 @@
+Link for everyone to check: localhost/elective_tagging
+Link for admins: localhost/elective_tagging/admin
+
+To add new student data, do the following steps:
+1) Go to localhost/phpmyadmin
+2) Select the database "elective_data" from left-hand side column
+3) Select the table "student_elective_data" from left-hand side column
+4) There will be an "Empty" option on top, select that to empty the table
+5) Then go to localhost/elective_tagging/admin/
+6) Select the file and click on Submit. The database would be updated
+
+To generate the report file:
+1) Go to localhost/elective_tagging/admin/
+2) Click on "Go" to generate report.
+3) Choose the file
+4) Click on submit
+5) The report file will be present in www/elective_tagging/admin/Output/
+
+To add or delete or edit electives:
+1) Go to localhost/elective_tagging/admin
+2) Click on Edit button and edit the data
